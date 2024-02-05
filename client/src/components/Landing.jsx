@@ -21,7 +21,7 @@ const Landing = () => {
   return (
     <div
       style={{
-        backgroundImage: 'url(https://www.shutterstock.com/image-vector/black-business-paper-gold-lies-260nw-1920160025.jpg)',
+        backgroundImage: 'url(./back.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '90vh',

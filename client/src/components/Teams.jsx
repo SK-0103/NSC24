@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Teams = ({ images }) => {
-  const itemsPerPage = 5;
+  const itemsPerPage = 3;
   const [currentPage, setCurrentPage] = useState(1);
   const totalPageCount = Math.ceil(images.length / itemsPerPage);
 
@@ -58,7 +58,7 @@ const teamMemberContainerStyle = {
 };
 
 const teamMemberImageStyle = {
-  width: '100%',
+  width: '250px',
   height: 'auto',
   borderRadius: '8px',
   cursor: 'pointer',

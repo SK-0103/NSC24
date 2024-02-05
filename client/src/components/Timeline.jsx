@@ -8,7 +8,7 @@ const Timeline = () => {
       description: '11 am onwards... Reporting: 10 am',
     },
     {
-      title: 'VollyBall',
+      title: 'Volleyball',
       description: '11 am onwards',
     },
     // Add more events as needed
@@ -28,11 +28,11 @@ const Timeline = () => {
       description: '11 am onwards',
     },
     {
-      title: 'VollyBall',
+      title: 'Volleyball',
       description: '11 am onwards',
     },
     {
-      title: 'Tug War',
+      title: 'Tug of War',
       description: '11 am onwards',
     },
     {

@@ -3,16 +3,16 @@ import Teams from '../components/Teams';
 
 const Team = () => {
     const teamImages = [
-        './image1.jpg',
-        './image2.jpg',
-        './image3.jpg',
-        './image4.jpg',
-        './image5.jpg',
-        './image6.jpg',
-        './image7.jpg', 
+        './Sidak.jpg',
+        './saurav.jpeg',
+        './amit.jpg',
+        './kus.jpg',
+        './abhi.jpg',
+        './ishaan.jpg',
+         
       ];
   return (
-    <div id='Team'>
+    <div >
     <center>
     <div className='max-w-6xl mx-auto my-3 flex flex-col'>
       <hr style={{ height: '3px',width:'auto', color: '#333',}}></hr>
