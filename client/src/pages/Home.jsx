@@ -10,7 +10,7 @@ import Landing from '../components/Landing';
 import Schedule from '../components/Schedule';
 import Footer from '../components/Footer';
 import Team from '../components/Team';
-import Fade from 'react-reveal/Fade'; // Import Fade from react-reveal
+import { Fade } from "react-awesome-reveal";
 
 export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
