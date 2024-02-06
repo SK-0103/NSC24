@@ -4,6 +4,7 @@ import Teams from '../components/Teams';
 const Team = () => {
     const teamImages = [
         './Sidak.jpg',
+        './arjun.jpg',
         './saurav.jpeg',
         './amit.jpg',
         './kus.jpg',
