@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Teams = ({ images }) => {
-  const itemsPerPage = 3;
+  const itemsPerPage = 2;
   const [currentPage, setCurrentPage] = useState(1);
   const totalPageCount = Math.ceil(images.length / itemsPerPage);
 
