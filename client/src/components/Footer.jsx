@@ -146,7 +146,7 @@ export default function Footer() {
             </li>
           </ul>
           <div className="mt-2 text-black font-bold">
-            Built <button><a href='/profile'>With</a></button> <code>&lt;/&gt;</code> by Kanika and Shaunit
+            Built <button><a href='/profile'>With</a></button> <code>&lt;/&gt;</code> by <a href="https://www.instagram.com/shaunit_k01/">Shaunit</a> and <a href="https://www.linkedin.com/in/kanika-t/?originalSubdomain=in">Kanika</a> 
           </div>
         </div>
       </div>
