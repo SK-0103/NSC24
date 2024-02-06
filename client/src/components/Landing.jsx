@@ -41,7 +41,7 @@ const Landing = () => {
         </h1>
         <br></br>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <a href="https://bvicam.ac.in/indiacom/addMember.asp" 
+        <a href="https://bvicam.ac.in/nsc/addmember.asp" 
         target="_blank" rel="noopener noreferrer" // Add your register link here
         style={{
           backgroundColor: '#4a5568', // Slate color
