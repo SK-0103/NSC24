@@ -121,7 +121,7 @@ export default function Footer() {
           {/* Google Map remains here if you decide to keep it */}
         </div>
 
-        <div className="bg-green-100 p-4 rounded-lg mb-4 w-11/12 text-center">
+        <div className="bg-blue-100 p-4 rounded-lg mb-4 w-11/12 text-center">
           <h2 className="text-xl font-bold mb-2 text-black ">Follow For More Updates</h2>
           <ul className="flex items-center justify-center text-black">
             <li className="mr-4">
@@ -146,9 +146,12 @@ export default function Footer() {
             </li>
           </ul>
           <div className="mt-2 text-black font-bold">
-            Built <button><a href='/profile'>With</a></button> <code>&lt;/&gt;</code> by <a href="https://www.instagram.com/shaunit_k01/">Shaunit</a> and <a href="https://www.linkedin.com/in/kanika-t/?originalSubdomain=in">Kanika</a> 
+            BUILT <button><a href='/profile'>WITH</a></button> <code>&lt;/&gt;</code> BY <a href="https://www.instagram.com/shaunit_k01/">SHAUNIT</a> | <a href="https://www.linkedin.com/in/kanika-t/?originalSubdomain=in">KANIKA</a> 
           </div>
         </div>
+        <div className="mt-2 text-white font-bold">
+        © COPYRIGHT BVICAM 2024
+          </div>
       </div>
     </div>
   );
