@@ -138,11 +138,11 @@ export default function Header() {
                   Events
                 </li>
               </a>
-              {/* <a href='#Team'>
+               <a href='#Map'>
                 <li className='text-white hover:underline'>
-                  Team
+                  Map
                 </li>
-              </a> */}
+              </a> 
             </ul>
           )}
         </div>
@@ -165,11 +165,11 @@ export default function Header() {
                 Events
               </li>
             </a>
-            {/* <a href='#Team'>
+             <a href='#Map'>
               <li className='text-white hover:underline'>
-                Team
+                Map
               </li>
-            </a> */}
+            </a> 
           </ul>
         </div>
       </div>

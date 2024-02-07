@@ -96,7 +96,7 @@ export default function Home() {
               <div className="container">
                 <img src="Sidak.jpg" alt="Avatar" className='image' />
                 <div className="middle">
-                <div className='font-serif text-2xl text-white'>Sidak Ahuja</div>
+                <div className='font-serif text-xl text-white'>Sidak Ahuja</div>
                   <br/>
                   <a href='https://www.instagram.com/sidakahujaa/?igsh=M3U3Nmhwazd5eXlw&utm_source=qr'>
                   <button>
@@ -106,7 +106,7 @@ export default function Home() {
               <div className="container">
                 <img src="arjun.jpg" alt="Avatar" className='image' />
                 <div className="middle ">
-                <div className='font-serif text-2xl text-white'>Arjun Alagh</div>
+                <div className='font-serif text-xl text-white'>Arjun Alagh</div>
                   <br/>
                   <a href='https://www.instagram.com/arjunn_alagh/?igsh=eDd4M2hpMGp4d245&utm_source=qr'>
                   <button>
@@ -118,7 +118,7 @@ export default function Home() {
               <div className="container">
                 <img src="amit.jpg" alt="Avatar" className='image' />
                 <div className="middle ">
-                <div className='font-serif text-3xl text-white'>Amit Raj</div>
+                <div className='font-serif text-xl text-white'>Amit Raj</div>
                   <br/>
                   <a href='https://www.instagram.com/raj_amitttt/'>
                   <button>
@@ -128,7 +128,7 @@ export default function Home() {
               <div className="container">
                 <img src="abhi.jpg" alt="Avatar" className='image' />
                 <div className="middle ">
-                <div className='font-serif text-2xl text-white'>Abhishek Kohli</div>
+                <div className='font-serif text-xl text-white'>Abhishek Kohli</div>
                   <br/>
                   <a href='https://www.instagram.com/abhiiii0.8/'>
                   <button>
@@ -141,7 +141,7 @@ export default function Home() {
               <div className="container">
                 <img src="sk.jpg" alt="Avatar" className='image' />
                 <div className="middle">
-                <div className='font-serif text-2xl text-white'>Shaunit Kataria</div>
+                <div className='font-serif text-xl text-white'>Shaunit Kataria</div>
                   <br/>
                   <a href='https://www.instagram.com/shaunit_k01/'>
                   <button>
@@ -151,7 +151,7 @@ export default function Home() {
               <div className="container">
                 <img src="saurav.jpeg" alt="Avatar" className='image' />
                 <div className="middle">
-                <div className='font-serif text-2xl text-white'>Sourav</div>
+                <div className='font-serif text-xl text-white'>Sourav</div>
                   <br/>
                   <a href='https://www.instagram.com/singhsourav050/'>
                   <button>
@@ -163,7 +163,7 @@ export default function Home() {
               <div className="container">
                 <img src="kus.jpg" alt="Avatar" className='image' />
                 <div className="middle">
-                <div className='font-serif text-2xl text-white'>Kushagra Abbi</div>
+                <div className='font-serif text-xl text-white'>Kushagra Abbi</div>
                   <br/>
                   <a href='https://www.instagram.com/skushagra_abbi/?igsh=dGM4aGg3eGV5MHNt'>
                   <button>
@@ -173,9 +173,9 @@ export default function Home() {
               <div className="container">
                 <img src="ishaan.jpg" alt="Avatar" className='image' />
                 <div className="middle">
-                  <div className='font-serif text-2xl text-white'>Ishaan Verma</div>
+                  <div className='font-serif text-xl text-white'>Ishaan Verma</div>
                   <br/>
-                  <a href=''>
+                  <a href='https://www.instagram.com/ishaanverma311?igsh=NGVxZ296YXljdWd3'>
                   <button>
                   <div className="text rounded-full">Connect</div>
                   </button></a>
@@ -187,7 +187,7 @@ export default function Home() {
               <div className="container">
                 <img src="jatin.jpg" alt="Avatar" className='image' />
                 <div className="middle">
-                <div className='font-serif text-2xl text-white'>Jatin Yadav</div>
+                <div className='font-serif text-xl text-white'>Jatin Yadav</div>
                   <br/>
                   <a href='https://www.instagram.com/jatinyadav2803/'>
                   <button>
@@ -197,9 +197,9 @@ export default function Home() {
               <div className="container">
                 <img src="anupam.jpg" alt="Avatar" className='image' />
                 <div className="middle ">
-                <div className='font-serif text-2xl text-white'>Anupama</div>
+                <div className='font-serif text-xl text-white'>Anupama</div>
                   <br/>
-                  <a href='https://www.instagram.com/arjunn_alagh/?igsh=eDd4M2hpMGp4d245&utm_source=qr'>
+                  <a href=''>
                   <button>
                   <div className="text rounded-full">Connect</div></button></a>
                 </div>
