@@ -48,7 +48,7 @@ const Timeline = () => {
       description: '11 am onwards',
     },
     {
-      title: 'Dry Cooking',
+      title: 'Flameless Cooking',
       description: '11 am onwards',
     },
     {
