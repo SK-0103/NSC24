@@ -1,0 +1,63 @@
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+/* @media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .container {
+    position: relative;
+    display: inline;
+    padding: 20px;
+  }
+} */
+
+
+.container {
+    position: relative;
+    display: inline;
+    padding: 20px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 250px;
+    /* height: 250px; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }

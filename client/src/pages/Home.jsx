@@ -11,6 +11,8 @@ import Schedule from '../components/Schedule';
 import Footer from '../components/Footer';
 import Team from '../components/Team';
 import { Fade } from "react-awesome-reveal";
+import './home.css';
+
 
 export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
@@ -82,7 +84,155 @@ export default function Home() {
         )}
       </div>
       <Fade>
-        <Team />
+        <div >
+          <center>
+            <div className='max-w-6xl mx-auto my-3 flex flex-col' >
+              <hr style={{ height: '3px', width: 'auto', color: '#333', }}></hr>
+              <h2 className='text-3xl font-semibold text-slate-100 '>COORDINATOR TEAM</h2>
+              <hr style={{ height: '40px', width: 'auto', color: '#333', }}></hr>
+            </div>
+
+            <div className="flex-container">
+              <div className="container">
+                <img src="Sidak.jpg" alt="Avatar" className='image' />
+                <div className="middle">
+                <div className='font-serif text-2xl text-white'>Sidak Ahuja</div>
+                  <br/>
+                  <a href='https://www.instagram.com/sidakahujaa/?igsh=M3U3Nmhwazd5eXlw&utm_source=qr'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+              <div className="container">
+                <img src="arjun.jpg" alt="Avatar" className='image' />
+                <div className="middle ">
+                <div className='font-serif text-2xl text-white'>Arjun Alagh</div>
+                  <br/>
+                  <a href='https://www.instagram.com/arjunn_alagh/?igsh=eDd4M2hpMGp4d245&utm_source=qr'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+            </div>
+            <div className="flex-container">
+              <div className="container">
+                <img src="amit.jpg" alt="Avatar" className='image' />
+                <div className="middle ">
+                <div className='font-serif text-3xl text-white'>Amit Raj</div>
+                  <br/>
+                  <a href='https://www.instagram.com/raj_amitttt/'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+              <div className="container">
+                <img src="abhi.jpg" alt="Avatar" className='image' />
+                <div className="middle ">
+                <div className='font-serif text-2xl text-white'>Abhishek Kohli</div>
+                  <br/>
+                  <a href='https://www.instagram.com/abhiiii0.8/'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+            </div>
+            <br/>
+            <div className="flex-container">
+              <div className="container">
+                <img src="sk.jpg" alt="Avatar" className='image' />
+                <div className="middle">
+                <div className='font-serif text-2xl text-white'>Shaunit Kataria</div>
+                  <br/>
+                  <a href='https://www.instagram.com/shaunit_k01/'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+              <div className="container">
+                <img src="saurav.jpeg" alt="Avatar" className='image' />
+                <div className="middle">
+                <div className='font-serif text-2xl text-white'>Sourav</div>
+                  <br/>
+                  <a href='https://www.instagram.com/singhsourav050/'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+            </div>
+            <div className="flex-container">
+              <div className="container">
+                <img src="kus.jpg" alt="Avatar" className='image' />
+                <div className="middle">
+                <div className='font-serif text-2xl text-white'>Kushagra Abbi</div>
+                  <br/>
+                  <a href='https://www.instagram.com/skushagra_abbi/?igsh=dGM4aGg3eGV5MHNt'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+              <div className="container">
+                <img src="ishaan.jpg" alt="Avatar" className='image' />
+                <div className="middle">
+                  <div className='font-serif text-2xl text-white'>Ishaan Verma</div>
+                  <br/>
+                  <a href=''>
+                  <button>
+                  <div className="text rounded-full">Connect</div>
+                  </button></a>
+                </div>
+              </div>
+            </div>
+            <br/>
+            <div className="flex-container">
+              <div className="container">
+                <img src="jatin.jpg" alt="Avatar" className='image' />
+                <div className="middle">
+                <div className='font-serif text-2xl text-white'>Jatin Yadav</div>
+                  <br/>
+                  <a href='https://www.instagram.com/jatinyadav2803/'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+              <div className="container">
+                <img src="anupam.jpg" alt="Avatar" className='image' />
+                <div className="middle ">
+                <div className='font-serif text-2xl text-white'>Anupama</div>
+                  <br/>
+                  <a href='https://www.instagram.com/arjunn_alagh/?igsh=eDd4M2hpMGp4d245&utm_source=qr'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+            </div>
+            {/* <div className="flex-container">
+              <div className="container">
+                <img src="amit.jpg" alt="Avatar" className='image' />
+                <div className="middle ">
+                <div className='font-serif text-3xl text-white'>Amit Raj</div>
+                  <br/>
+                  <a href='https://www.instagram.com/raj_amitttt/'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+              <div className="container">
+                <img src="abhi.jpg" alt="Avatar" className='image' />
+                <div className="middle ">
+                <div className='font-serif text-2xl text-white'>Abhishek Kohli</div>
+                  <br/>
+                  <a href='https://www.instagram.com/abhiiii0.8/'>
+                  <button>
+                  <div className="text rounded-full">Connect</div></button></a>
+                </div>
+              </div>
+            </div> */}
+            <br/>
+
+          </center>
+          <br></br>
+          <br></br>
+        </div>
       </Fade>
       <Fade>
         <Footer />

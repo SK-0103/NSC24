@@ -20,7 +20,7 @@ const CountdownTimer = () => {
   }, []);
 
   function calculateTimeLeft() {
-    const targetDate = new Date('2024-03-01T00:00:00Z'); // Set your target date and time
+    const targetDate = new Date('2024-02-29T18:30:00Z'); // Set your target date and time
     const currentDate = new Date();
     const timeDifference = targetDate - currentDate;
 
