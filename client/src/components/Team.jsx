@@ -15,7 +15,7 @@ const Team = () => {
   return (
     <div >
     <center>
-    <div className='max-w-6xl mx-auto my-3 flex flex-col' id="Team">
+    <div className='max-w-6xl mx-auto my-3 flex flex-col' >
       <hr style={{ height: '3px',width:'auto', color: '#333',}}></hr>
       <h2 className='text-3xl font-semibold text-slate-100 '>COORDINATOR TEAM</h2>
       <hr style={{ height: '40px',width:'auto', color: '#333',}}></hr>
