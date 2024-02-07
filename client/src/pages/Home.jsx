@@ -185,7 +185,7 @@ export default function Home() {
             <br/>
             <div className="flex-container">
               <div className="container">
-                <img src="jatin.jpg" alt="Avatar" className='image' />
+                <img src="jatin.jpeg" alt="Avatar" className='image' />
                 <div className="middle">
                 <div className='font-serif text-xl text-white'>Jatin Yadav</div>
                   <br/>
