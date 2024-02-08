@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -17,9 +18,9 @@ import {
   FaParking,
   FaShare,
 } from 'react-icons/fa';
-// import Contact from '../components/Contact';
-
-// https://sabe.io/blog/javascript-format-numbers-commas#:~:text=The%20best%20way%20to%20format,format%20the%20number%20with%20commas.
+import Head from '../components/Head';
+import './Listing.css'; // Import your CSS file for styling
+import { Fade } from 'react-awesome-reveal';
 
 export default function Listing() {
   SwiperCore.use([Navigation]);
@@ -54,52 +55,61 @@ export default function Listing() {
   }, [params.listingId]);
 
   return (
-    <main>
+    <main className="background-wrapper">
       {loading && <p className='text-center my-7 text-2xl'>Loading...</p>}
       {error && (
         <p className='text-center my-7 text-2xl'>Something went wrong!</p>
       )}
       {listing && !loading && !error && (
-  <div>
-    {listing.imageUrls.map((url, index) => (
-      <div
-        key={index}
-        className='h-[500px] w-108'
-        style={{
-          background: `url(${url}) center no-repeat`,
-          backgroundSize: '',
-        }}
-      ></div>
-    ))}
+        
+        <div>
+          <Head></Head>
+          <div>
+            {/* {listing.imageUrls.map((url, index) => (
+              <div
+                key={index}
+                className='h-[500px] w-108  '
+                style={{
+                  background: `url(${url}) center no-repeat`,
+                  backgroundSize: '',
+                }}
+              ></div>
+            ))} */}
+            <img src="/bg2.jpg" alt="Background Image" className="background-image" />
+            <Fade>
+            <div className='flex flex-col max-w-4xl mx-auto p-3 my-5 gap-2'>
+              
+              <p className='text-5xl font-serif font-bold self-center '>
+                {listing.name}
+              </p>
+              
+              <p className='flex items-center text-2xl self-center mt-5 gap-2 text-black'>
+                <FaCalendarCheck className='text-green-700' />
+                {listing.address}
+              </p>
 
-    <div className='flex flex-col max-w-4xl mx-auto p-3 my-7 gap-2'>
-      <p className='text-2xl font-semibold self-center '>
-        {listing.name}
-      </p>
-      <p className='flex items-center self-center mt-5 gap-2 text-slate-600'>
-        <FaCalendarCheck className='text-green-700' />
-        {listing.address}
-      </p>
+              <div className='border rounded-lg overflow-hidden shadow-2xl  p-4 mt-4 bg-slate-200'>
+                <p className='text-slate-800'>
+                  <span className='font-bold text-black '>Rules: </span>
 
-      <div className='border rounded-lg overflow-hidden hover:shadow-md p-4 mt-4'>
-        <p className='text-slate-800'>
-          <span className='font-semibold text-black '>Rules: </span>
-          
-          <div style={{wordWrap:'break-word',whiteSpace:'pre-wrap'}}className='border: 1px solid #ccc;padding: 10px;border-radius: 5px;overflow-x: auto;max-width: 300px;text: font-sans max-width: 100%;'>
-            {listing.description}
+                  <div style={{ wordWrap: 'break-word', whiteSpace: 'pre-wrap' }} className='border: 1px solid #ccc;padding: 10px;border-radius: 5px;overflow-x: auto;max-width: 300px;text: font-sans max-width: 100%;'>
+                    {listing.description}
+                  </div>
+                </p>
+              </div>
+              <a className='bg-green-600 text-white rounded-lg uppercase hover:opacity-95 p-3 text-center ' href={listing.link}>
+                <button
+                  onClick={() => setContact(true)}>
+                  REGISTER HERE
+                </button>
+              </a>
+            </div>
+            </Fade>
+
           </div>
-        </p>
-      </div>
-
-      <button
-        onClick={() => setContact(true)}
-        className='bg-slate-700 text-white rounded-lg uppercase hover:opacity-95 p-3'
-      >
-        <a href={listing.link}>Register here</a>
-      </button>
-    </div>
-  </div>
-)}
+        </div>
+        
+      )}
     </main>
   );
 }

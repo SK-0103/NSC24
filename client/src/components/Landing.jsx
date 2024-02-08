@@ -44,7 +44,7 @@ const Landing = () => {
         <a href="https://bvicam.ac.in/nsc/addmember.asp" 
         target="_blank" rel="noopener noreferrer" // Add your register link here
         style={{
-          backgroundColor: '#4a5568', // Slate color
+          backgroundColor: '#1fd655', // Slate color
           color: 'white',
           padding: '8px 16px',
           borderRadius: '8px',
@@ -54,7 +54,7 @@ const Landing = () => {
         }}
         className="hover:bg-gray-700 hover:w-96 text-center" // Apply hover effect
       >
-        Register
+        REGISTER
       </a>
       </div>
         <CountdownTimer></CountdownTimer>

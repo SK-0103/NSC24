@@ -24,6 +24,9 @@ export default function ListingItem({ listing }) {
               {listing.address}
             </p>
           </div>
+          <center>
+          <div className='font-semibold'>Click for more details</div>
+          </center>
           {/* <p className='text-sm text-gray-600 line-clamp-2'>
             {listing.description}
           </p> */}
