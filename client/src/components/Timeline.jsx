@@ -55,6 +55,10 @@ const Timeline = () => {
       title: 'RJ Hunt',
       description: '11 am onwards',
     },
+    {
+      title: 'Reel Making',
+      description: '11 am onwards',
+    },
     // Add more events as needed
   ];
 

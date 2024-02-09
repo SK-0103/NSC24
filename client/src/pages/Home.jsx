@@ -162,7 +162,7 @@ export default function Home() {
               <div className="container">
                 <img src="saurav.jpeg" alt="Avatar" className='image' />
                 <div className="middle">
-                <div className='font-serif text-lg text-white'>sourav</div>
+                <div className='font-serif text-lg text-white'>Sourav</div>
                 <div className='font-sans text-xs text-white'>+91 98711 69532</div>
                   
                   <a href='https://www.instagram.com/singhsourav050/'>
@@ -210,39 +210,42 @@ export default function Home() {
                 </div>
               </div>
               <div className="container">
-                <img src="anupam.jpg" alt="Avatar" className='image' />
+                <img src="sahil.jpg" alt="Avatar" className='image' />
                 <div className="middle ">
-                <div className='font-serif text-lg text-white'>Anupama</div>
-                <div className='font-sans text-xs text-white'>+91 86608 33848</div>
+                <div className='font-serif text-lg text-white'>Gulshan</div>
+                <div className='font-sans text-xs text-white'>+91 89203 43259</div>
                   
-                  <a href=''>
+                  <a href='https://www.linkedin.com/in/gulshan-kumar-02a209180?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
                   <button>
                   <div className="text rounded-full">Connect</div></button></a>
                 </div>
               </div>
             </div>
-            {/* <div className="flex-container">
+            <div className="flex-container">
               <div className="container">
-                <img src="amit.jpg" alt="Avatar" className='image' />
-                <div className="middle ">
-                <div className='font-serif text-3xl text-white'>Amit Raj</div>
-                  <br/>
-                  <a href='https://www.instagram.com/raj_amitttt/'>
+                <img src="shagun.jpeg" alt="Avatar" className='image' />
+                <div className="middle">
+                <div className='font-serif text-lg text-white'>Shagun</div>
+                <div className='font-sans text-xs text-white'>+91 85957 28217</div>
+                  
+                  <a href='https://www.linkedin.com/in/shagun1702/'>
                   <button>
                   <div className="text rounded-full">Connect</div></button></a>
                 </div>
               </div>
               <div className="container">
-                <img src="abhi.jpg" alt="Avatar" className='image' />
+                <img src="anupam.jpg" alt="Avatar" className='image' />
                 <div className="middle ">
-                <div className='font-serif text-2xl text-white'>Abhishek Kohli</div>
-                  <br/>
-                  <a href='https://www.instagram.com/abhiiii0.8/'>
+                <div className='font-serif text-lg text-white'>Anupama</div>
+                <div className='font-sans text-xs text-white'>+91 86608 33848</div>
+                  
+                  <a href='https://www.linkedin.com/in/anupamakumari2001'>
                   <button>
                   <div className="text rounded-full">Connect</div></button></a>
                 </div>
               </div>
-            </div> */}
+            </div>
+
             <br/>
 
           </center>
