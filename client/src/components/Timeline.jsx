@@ -25,7 +25,7 @@ const Timeline = () => {
     },
     {
       title: 'Solo Dance',
-      description: '11 am ',
+      description: '11 am onwards',
     },
     {
       title: 'Shark Tank',
