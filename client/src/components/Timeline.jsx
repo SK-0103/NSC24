@@ -20,12 +20,12 @@ const Timeline = () => {
       
     },
     {
-      title: 'Nukkad Natak',
-      description: '11 am Reporting: 9 am',
+      title: 'Rang Manch |Nukkad Natak|',
+      description: '09:00 AM onwards',
     },
     {
-      title: 'Solo Dance',
-      description: '11 am onwards',
+      title: 'Orphic VOL.1 |Solo Dance|',
+      description: '02:00 PM onwards',
     },
     {
       title: 'Shark Tank',
