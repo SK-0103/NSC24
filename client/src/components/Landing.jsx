@@ -32,31 +32,32 @@ const Landing = () => {
       }}
     >
       <div className='flex flex-col gap-3 p-28 px-3 max-w-6xl'>
-        <h1 className='text-yellow-600 font-bold text-xl lg:text-5xl self-center font-serif' style={{ opacity: scrollOpacity }}>
-          NATIONAL STUDENTS CONVENTION '24
-        </h1>
-        <br></br>
-        <h1 className='text-slate-300 font-bold text-3xl lg:text-6xl self-center' style={{ opacity: scrollOpacity }}>
-          1<sup>st</sup> March - 2<sup>nd</sup> March 2024
-        </h1>
+        <center>
+          <h1 className='text-yellow-600 font-bold text-xl lg:text-5xl self-center font-serif' style={{ opacity: scrollOpacity }}>
+            NATIONAL STUDENTS CONVENTION '24
+          </h1>
+          <br></br>
+          <h1 className='text-slate-300 font-bold text-3xl lg:text-6xl self-center' style={{ opacity: scrollOpacity }}>
+            1<sup>st</sup> March - 2<sup>nd</sup> March 2024
+          </h1></center>
         <br></br>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-        <a href="https://bvicam.ac.in/nsc/addmember.asp" 
-        target="_blank" rel="noopener noreferrer" // Add your register link here
-        style={{
-          backgroundColor: '#1fd655', // Slate color
-          color: 'white',
-          padding: '8px 16px',
-          borderRadius: '8px',
-          textDecoration: 'none',
-          width: '120px',
-          transition: 'background-color 0.3s, width 0.3s',
-        }}
-        className="hover:bg-gray-700 hover:w-96 text-center" // Apply hover effect
-      >
-        REGISTER
-      </a>
-      </div>
+          <a href="https://bvicam.ac.in/nsc/addmember.asp"
+            target="_blank" rel="noopener noreferrer" // Add your register link here
+            style={{
+              backgroundColor: '#1fd655', // Slate color
+              color: 'white',
+              padding: '8px 16px',
+              borderRadius: '8px',
+              textDecoration: 'none',
+              width: '120px',
+              transition: 'background-color 0.3s, width 0.3s',
+            }}
+            className="hover:bg-gray-700 hover:w-96 text-center" // Apply hover effect
+          >
+            REGISTER
+          </a>
+        </div>
         <CountdownTimer></CountdownTimer>
       </div>
     </div>
