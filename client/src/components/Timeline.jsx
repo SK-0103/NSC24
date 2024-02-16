@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 const Timeline = () => {
   const events = [
     {
-      title: 'Group Dance',
+      title: 'Fandango |Group Dance|',
       description: '11 am onwards... Reporting: 10 am',
     },
     {

@@ -9,11 +9,11 @@
 //         <div>
 //         <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=BVICAM+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>        
 //         </div>
-        
+
 //         <center className='bg-green-100'>
 //         <div style={{fontSize:'20px', marginBottom:'10px'}} className='bg-green-100 font-bold'>Follow For More Updates</div>
-        
-        
+
+
 //           <ul style={{display:'flex', justifyContent:'center',}} className='bg-green-100'>
 //             <li>
 //               <a href="https://goo.gl/maps/K6uS1xE64fiAoLHv8">
@@ -36,7 +36,7 @@
 //             </a>
 //             </li> 
 //           </ul>
-        
+
 //         </center>
 
 
@@ -51,7 +51,7 @@
 //   );
 // }
 
-        {/* <div className="bg-green-100 p-2 rounded-lg">
+{/* <div className="bg-green-100 p-2 rounded-lg">
           <button className="bg-gray-900 text-white py-1 px-2 rounded-full">
             <a href="/profile">Admin</a>
           </button>
@@ -61,7 +61,7 @@
 
 // export default function Footer() {
 //   return (
-    
+
 //     <div className="bg-gray-900 text-white py-6">
 //          <div>
 //         <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=BVICAM+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>        
@@ -112,14 +112,12 @@ import { FaFacebook, FaInstagram, FaYoutube, FaGoogle } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <div className="bg-gray-900 text-white py-6" id='Map'>
-      <div>
+    <div className="bg-gray-900 text-white py-6" >
+      {/* <div id='Map'>
         <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=BVICAM+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-      </div>
-      <div className="container mx-auto flex flex-col items-center "> {/* Adjusted width using max-w-6xl */}
-        <div className="mb-6">
-          {/* Google Map remains here if you decide to keep it */}
-        </div>
+      </div> */}
+      <div className="container mx-auto flex flex-col items-center "> 
+
 
         <div className="bg-blue-100 p-4 rounded-lg mb-4 w-11/12 text-center">
           <h2 className="text-xl font-bold mb-2 text-black ">Follow For More Updates</h2>
@@ -146,12 +144,12 @@ export default function Footer() {
             </li>
           </ul>
           <div className="mt-2 text-black font-bold">
-            BUILT <button><a href='/profile'>WITH</a></button> <code>&lt;/&gt;</code> BY <a href="https://www.instagram.com/shaunit_k01/">SHAUNIT</a> | <a href="https://www.linkedin.com/in/kanika-t/?originalSubdomain=in">KANIKA</a> 
+            BUILT <button><a href='/profile'>WITH</a></button> <code>&lt;/&gt;</code> BY <a href="https://www.instagram.com/shaunit_k01/">SHAUNIT</a> | <a href="https://www.linkedin.com/in/kanika-t/?originalSubdomain=in">KANIKA</a>
           </div>
         </div>
-        <div className="mt-2 text-white font-bold">
-        © COPYRIGHT BVICAM 2024
-          </div>
+        <div className="mt-1 -mb-4 text-white font-bold">
+          © COPYRIGHT BVICAM 2024
+        </div>
       </div>
     </div>
   );

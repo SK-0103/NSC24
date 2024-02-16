@@ -61,3 +61,21 @@
     font-size: 12px;
     padding: 8px 16px;
   }
+
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.google-maps-contact-content {
+    position: relative;
+    z-index: 1;
+    background-color: #3a3b41;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    padding: 20px;
+    width: 80%;
+}

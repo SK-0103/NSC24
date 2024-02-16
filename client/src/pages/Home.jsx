@@ -87,6 +87,16 @@ export default function Home() {
           )}
         </div>
         <Fade>
+          <center className=''>
+            <div className='max-w-6xl mx-auto my-3 flex flex-col ' id='Map' >
+              <hr style={{ height: '3px', width: 'auto', color: '#333', }}></hr>
+              <h2 className='text-3xl font-semibold text-slate-100 '>MAP</h2>
+              <hr style={{ height: '40px', width: 'auto', color: '#333', }}></hr>
+            </div>
+            <div className='google-maps-contact-content'>
+              <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=BVICAM+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+          </center><br></br>
           <div >
             <center>
               <div className='max-w-6xl mx-auto my-3 flex flex-col' >
@@ -253,6 +263,45 @@ export default function Home() {
               </div>
               <br />
               <div className="flex-container">
+                <div className="container">
+                  <img src="garima.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle">
+                    <div className='font-serif text-lg text-white'>Garima</div>
+                    <div className='font-sans text-xs text-white'>+91 97110 31155</div>
+
+                    <a href='https://www.instagram.com/d_garima04?igsh=MXA1NmZ0emlhcmY1'>
+                      <button>
+                        <div className="text rounded-full">Connect</div></button></a>
+                  </div>
+                </div>
+                <div className="container">
+                  <img src="ananya.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle">
+                    <div className='font-serif text-lg text-white'>Ananya Arora</div>
+                    <div className='font-sans text-xs text-white'>+91 96502 52130</div>
+
+                    <a href='https://www.linkedin.com/in/ananya-arora-2a6269245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
+                      <button>
+                        <div className="text rounded-full">Connect</div></button></a>
+                  </div>
+                </div>
+                
+              </div>
+              <div className='flex-container'>
+                <div className="container">
+                  <img src="navya.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle">
+                    <div className='font-serif text-lg text-white'>Navya Wadhwa</div>
+                    <div className='font-sans text-xs text-white'>+91 78277 76854</div>
+
+                    <a href='https://www.linkedin.com/in/navya-wadhwa-234791239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'>
+                      <button>
+                        <div className="text rounded-full">Connect</div></button></a>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <div className="flex-container">
 
                 <div className="container">
                   <img src="gunshita.jpeg" alt="Avatar" className='image rounded-xl' />
@@ -286,7 +335,7 @@ export default function Home() {
                     <div className='font-serif text-lg text-white'>Vanshika</div>
                     <div className='font-sans text-xs text-white'>+91 88027 56114</div>
 
-                    <a href=''>
+                    <a href='https://www.linkedin.com/in/vanshikasharma01'>
                       <button>
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
