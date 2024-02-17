@@ -299,6 +299,17 @@ export default function Home() {
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
                 </div>
+                <div className="container">
+                  <img src="Tashmeen.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle">
+                    <div className='font-serif text-lg text-white'>Tashmeen Kaur</div>
+                    <div className='font-sans text-xs text-white'>+91 93543 79839</div>
+
+                    <a href='https://www.instagram.com/tashmeen_kaur20?igsh=aW5kYm03NGRnaGE3'>
+                      <button>
+                        <div className="text rounded-full">Connect</div></button></a>
+                  </div>
+                </div>
               </div>
               <br />
               <div className="flex-container">
@@ -354,6 +365,30 @@ export default function Home() {
               </div>
 
               <br />
+              <div className="flex-container">
+                <div className="container">
+                  <img src="ujjwal.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle ">
+                    <div className='font-serif text-lg text-white'>Ujjwal Chauhan</div>
+                    <div className='font-sans text-xs text-white'>+91 73037 82547</div>
+
+                    <a href='https://www.instagram.com/chauhan_ujjwal.16?igsh=MTBwY3cwbm5senFwdQ=='>
+                      <button>
+                        <div className="text rounded-full">Connect</div></button></a>
+                  </div>
+                </div>
+                {/* <div className="container">
+                  <img src="anupam.jpg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle ">
+                    <div className='font-serif text-lg text-white'>Anupama</div>
+                    <div className='font-sans text-xs text-white'>+91 86608 33848</div>
+
+                    <a href='https://www.linkedin.com/in/anupamakumari2001'>
+                      <button>
+                        <div className="text rounded-full">Connect</div></button></a>
+                  </div>
+                </div> */}
+              </div>
 
             </center>
             <br></br>
