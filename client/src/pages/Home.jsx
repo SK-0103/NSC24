@@ -225,12 +225,12 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="container">
-                  <img src="yashbir.jpeg" alt="Avatar" className='image rounded-xl' />
-                  <div className="middle">
-                    <div className='font-serif text-lg text-white'>Yashbir</div>
-                    <div className='font-sans text-xs text-white'>+91 74289 38665</div>
+                  <img src="ujjwal.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle ">
+                    <div className='font-serif text-lg text-white'>Ujjwal Chauhan</div>
+                    <div className='font-sans text-xs text-white'>+91 73037 82547</div>
 
-                    <a href='https://www.instagram.com/_yashhuu._/'>
+                    <a href='https://www.instagram.com/chauhan_ujjwal.16?igsh=MTBwY3cwbm5senFwdQ=='>
                       <button>
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
@@ -238,13 +238,13 @@ export default function Home() {
               </div>
 
               <div className="flex-container">
-                <div className="container">
+              <div className="container">
                   <img src="jatin.jpeg" alt="Avatar" className='image rounded-xl' />
-                  <div className="middle">
+                  <div className="middle ">
                     <div className='font-serif text-lg text-white'>Jatin Yadav</div>
                     <div className='font-sans text-xs text-white'>+91 88269 16231</div>
 
-                    <a href='https://www.instagram.com/jatinyadav2803/'>
+                    <a href='https://www.linkedin.com/in/gulshan-kumar-02a209180?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
                       <button>
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
@@ -340,17 +340,17 @@ export default function Home() {
               </div>
 
               <div className="flex-container">
-                <div className="container">
-                  <img src="vanshika.jpeg" alt="Avatar" className='image rounded-xl' />
+                 <div className="container">
+                  <img src="lakshita.jpg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
-                    <div className='font-serif text-lg text-white'>Vanshika</div>
-                    <div className='font-sans text-xs text-white'>+91 88027 56114</div>
+                    <div className='font-serif text-lg text-white'>Lakshita</div>
+                    <div className='font-sans text-xs text-white'>+91 87440 47511</div>
 
-                    <a href='https://www.linkedin.com/in/vanshikasharma01'>
+                    <a href=''>
                       <button>
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
-                </div>
+                </div> 
                 <div className="container">
                   <img src="anupam.jpg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
@@ -366,17 +366,7 @@ export default function Home() {
 
               <br />
               <div className="flex-container">
-                <div className="container">
-                  <img src="ujjwal.jpeg" alt="Avatar" className='image rounded-xl' />
-                  <div className="middle ">
-                    <div className='font-serif text-lg text-white'>Ujjwal Chauhan</div>
-                    <div className='font-sans text-xs text-white'>+91 73037 82547</div>
-
-                    <a href='https://www.instagram.com/chauhan_ujjwal.16?igsh=MTBwY3cwbm5senFwdQ=='>
-                      <button>
-                        <div className="text rounded-full">Connect</div></button></a>
-                  </div>
-                </div>
+ 
                 {/* <div className="container">
                   <img src="anupam.jpg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
