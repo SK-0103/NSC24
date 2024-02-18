@@ -390,7 +390,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-container">
-              {/* <div className="container">
+              <div className="container">
                   <img src="lakshay.jpeg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
                     <div className='font-serif text-lg text-white'>Lakshya</div>
@@ -400,7 +400,7 @@ export default function Home() {
                       <button>
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
-                </div> */}
+                </div>
                 <div className="container">
                   <img src="lakshita.jpg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
