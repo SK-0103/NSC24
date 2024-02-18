@@ -187,7 +187,7 @@ export default function Home() {
               <div className="flex-container">
 
                 <div className="container">
-                  <img src="saurav.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <img src="sourav.jpeg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle">
                     <div className='font-serif text-lg text-white'>Sourav</div>
                     <div className='font-sans text-xs text-white'>+91 98711 69532</div>
@@ -225,12 +225,12 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="container">
-                  <img src="ujjwal.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <img src="yashbir.jpeg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
-                    <div className='font-serif text-lg text-white'>Ujjwal Chauhan</div>
-                    <div className='font-sans text-xs text-white'>+91 73037 82547</div>
+                    <div className='font-serif text-lg text-white'>Yashbir</div>
+                    <div className='font-sans text-xs text-white'>+91 74289 38665</div>
 
-                    <a href='https://www.instagram.com/chauhan_ujjwal.16?igsh=MTBwY3cwbm5senFwdQ=='>
+                    <a href='https://www.instagram.com/_yashhuu._/'>
                       <button>
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
@@ -341,12 +341,12 @@ export default function Home() {
 
               <div className="flex-container">
                  <div className="container">
-                  <img src="lakshita.jpg" alt="Avatar" className='image rounded-xl' />
+                  <img src="vanshika.jpeg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
-                    <div className='font-serif text-lg text-white'>Lakshita</div>
-                    <div className='font-sans text-xs text-white'>+91 87440 47511</div>
+                    <div className='font-serif text-lg text-white'>Vanshika Sharma</div>
+                    <div className='font-sans text-xs text-white'>+91 88027 56114</div>
 
-                    <a href=''>
+                    <a href='https://www.linkedin.com/in/vanshikasharma01'>
                       <button>
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
@@ -366,18 +366,52 @@ export default function Home() {
 
               <br />
               <div className="flex-container">
- 
-                {/* <div className="container">
-                  <img src="anupam.jpg" alt="Avatar" className='image rounded-xl' />
+              <div className="container">
+                  <img src="ujjwal.jpeg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
-                    <div className='font-serif text-lg text-white'>Anupama</div>
-                    <div className='font-sans text-xs text-white'>+91 86608 33848</div>
+                    <div className='font-serif text-lg text-white'>Ujjwal Chauhan</div>
+                    <div className='font-sans text-xs text-white'>+91 73037 82547</div>
 
-                    <a href='https://www.linkedin.com/in/anupamakumari2001'>
+                    <a href='https://www.instagram.com/chauhan_ujjwal.16?igsh=MTBwY3cwbm5senFwdQ=='>
+                      <button>
+                        <div className="text rounded-full">Connect</div></button></a>
+                  </div>
+                </div>
+                <div className="container">
+                  <img src="disha.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle ">
+                    <div className='font-serif text-lg text-white'>Disha Arora</div>
+                    <div className='font-sans text-xs text-white'>+91 88006 83605</div>
+
+                    <a href=''>
+                      <button>
+                        <div className="text rounded-full">Connect</div></button></a>
+                  </div>
+                </div>
+              </div>
+              <div className="flex-container">
+              {/* <div className="container">
+                  <img src="lakshay.jpeg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle ">
+                    <div className='font-serif text-lg text-white'>Lakshya</div>
+                    <div className='font-sans text-xs text-white'>+91 88510 25179</div>
+
+                    <a href=''>
                       <button>
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
                 </div> */}
+                <div className="container">
+                  <img src="lakshita.jpg" alt="Avatar" className='image rounded-xl' />
+                  <div className="middle ">
+                    <div className='font-serif text-lg text-white'>Lakshita</div>
+                     <div className='font-sans text-xs text-white'>+91 87440 47511</div> 
+
+                    <a href=''>
+                      <button>
+                        <div className="text rounded-full">Connect</div></button></a>
+                  </div>
+                </div>
               </div>
 
             </center>
