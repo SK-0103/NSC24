@@ -64,7 +64,7 @@ const Timeline = () => {
       title: 'Orphic VOL.1 |Solo Dance|',
       description: '02:00 PM onwards... Reporting: 1:00 PM',
     },
-    // Add more events as needed
+    
   ];
 
   return (
