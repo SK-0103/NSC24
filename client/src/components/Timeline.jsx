@@ -21,12 +21,9 @@ const Timeline = () => {
     },
     {
       title: 'Rang Manch |Nukkad Natak|',
-      description: '09:00 AM onwards... Reporting: 08:30 AM',
+      description: '10:00 AM onwards... Reporting: 09:00 AM',
     },
-    {
-      title: 'Orphic VOL.1 |Solo Dance|',
-      description: '02:00 PM onwards... Reporting: 1:00 PM',
-    },
+
     {
       title: 'Shark Tank',
       description: '11 am onwards... Reporting: 10:00 AM',
@@ -41,7 +38,7 @@ const Timeline = () => {
     },
     {
       title: 'Tractate',
-      description: '11 am onwards... Reporting: 10:00 AM',
+      description: '10 am onwards... Reporting: 09:00 AM',
     },
     {
       title: 'Poster Making',
@@ -62,6 +59,10 @@ const Timeline = () => {
     {
       title: 'Reel Making',
       description: '11 am onwards... Reporting: 10:00 AM',
+    },
+    {
+      title: 'Orphic VOL.1 |Solo Dance|',
+      description: '02:00 PM onwards... Reporting: 1:00 PM',
     },
     // Add more events as needed
   ];
