@@ -79,3 +79,31 @@
     padding: 20px;
     width: 80%;
 }
+.collab {
+  position: relative;
+  z-index: 1;
+  background-color: #57a0b6;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  padding: 20px;
+  width: 80%;
+}
+.logo{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  
+}
+.logo2{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  height: auto;
+  width: auto;
+  
+}
+.lo{
+  height: auto;
+  width: auto;
+}

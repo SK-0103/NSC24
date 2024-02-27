@@ -86,6 +86,38 @@ export default function Home() {
             </div>
           )}
         </div>
+        <center>
+          <div>
+            <div className='collab'>
+              <div>
+                <p className='font-mono text-gray-950 text-3xl font-extrabold'>Our Collaborators</p>
+                <div className="flex-container">
+                  <Fade direction='left'>
+                  <div className="logo">
+                    <img src="domino logo.jpeg" alt="Avatar" className='image rounded-xl' />
+                  </div>
+                  
+                  
+                  <div className='logo'>
+                    <img src="ieee.jpeg" alt="Avatar" className='image rounded-xl' />
+                  </div></Fade>
+                </div>
+                
+                <div className="flex-container">
+                <Fade direction='right'>
+                  <div className='logo'>
+                    <img src="logo.jpeg" alt="Avatar" className='image rounded-xl' />
+                  </div>
+                 
+                  <div className='logo'>
+                    <img src="BN.jpg" alt="Avatar" className='image rounded-xl' />
+                  </div>
+                  </Fade>
+                </div>
+              </div>
+            </div>
+          </div>
+        </center><br/>
         <Fade>
           <center className=''>
             <div className='max-w-6xl mx-auto my-3 flex flex-col ' id='Map' >
@@ -238,7 +270,7 @@ export default function Home() {
               </div>
 
               <div className="flex-container">
-              <div className="container">
+                <div className="container">
                   <img src="jatin.jpeg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
                     <div className='font-serif text-lg text-white'>Jatin Yadav</div>
@@ -285,7 +317,7 @@ export default function Home() {
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
                 </div>
-                
+
               </div>
               <div className='flex-container'>
                 <div className="container">
@@ -340,7 +372,7 @@ export default function Home() {
               </div>
 
               <div className="flex-container">
-                 <div className="container">
+                <div className="container">
                   <img src="vanshika.jpeg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
                     <div className='font-serif text-lg text-white'>Vanshika Sharma</div>
@@ -350,7 +382,7 @@ export default function Home() {
                       <button>
                         <div className="text rounded-full">Connect</div></button></a>
                   </div>
-                </div> 
+                </div>
                 <div className="container">
                   <img src="anupam.jpg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
@@ -366,7 +398,7 @@ export default function Home() {
 
               <br />
               <div className="flex-container">
-              <div className="container">
+                <div className="container">
                   <img src="ujjwal.jpeg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
                     <div className='font-serif text-lg text-white'>Ujjwal Chauhan</div>
@@ -390,7 +422,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex-container">
-              <div className="container">
+                <div className="container">
                   <img src="lakshay.jpeg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
                     <div className='font-serif text-lg text-white'>Lakshya</div>
@@ -405,7 +437,7 @@ export default function Home() {
                   <img src="lakshita.jpg" alt="Avatar" className='image rounded-xl' />
                   <div className="middle ">
                     <div className='font-serif text-lg text-white'>Lakshita</div>
-                     <div className='font-sans text-xs text-white'>+91 87440 47511</div> 
+                    <div className='font-sans text-xs text-white'>+91 87440 47511</div>
 
                     <a href=''>
                       <button>
